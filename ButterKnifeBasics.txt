@@ -1,0 +1,5 @@
+ButterKnife:
+1.	We need to annotate fields with @BindView(R.id.textview1).
+2.	No need to write fineViewById
+3.	We need to bind the resources with @BindBool, @BindString, @BindColor...etc.
+4.	This will avoid calling on getResources.getColor() etc methods.
